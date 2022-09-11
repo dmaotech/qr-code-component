@@ -19,8 +19,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Soon]()
-- Live Site URL: [Soon]()
+- Solution URL: [https://firstproject-qr-code-component.netlify.app/](https://firstproject-qr-code-component.netlify.app/)
+- Live Site URL: [Soon](https://firstproject-qr-code-component.netlify.app/)
 
 ## My process
 > I started with the QR card structure in html, once this is done i begun with the css styles, puting the card in the center of the main block using flexbox, added colors and smooth borders making it look like the design.
