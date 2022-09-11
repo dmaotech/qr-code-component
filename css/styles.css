@@ -1,0 +1,80 @@
+*::before,
+*::after,
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    /* Layout sizes */
+    --mobile: 375px;
+    --desktop: 1440px;
+
+    /* Fonts */
+    font-family: 'Outfit', sans-serif;
+    --regular: 400;
+    --bold: 700;
+
+    /* Colors */
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 98vh;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-gray);
+}
+
+/* Card */
+.card {
+    width: 275px;
+    height: 425px;
+    padding: .75rem;
+    background-color: var(--white);
+    border-radius: 12px;
+    box-shadow: 0px 5px 10px 0px #0003;
+}
+
+.card-text--container {
+    padding-inline: .25rem;
+    text-align: center;
+}
+
+.card-text--container h3 {
+    margin-inline: 0;
+    font-weight: var(--bold);
+    color: var(--dark-blue)
+}
+
+.card-text--container p {
+    font-size: 15px;
+    font-weight: var(--regular);
+    color: var(--grayish-blue)
+}
+
+/* Footer */
+.attribution {
+    background-color: var(--dark-blue);
+    font-size: 11px; text-align: center;
+    color: var(--white);
+}
+
+.attribution a {
+    color: hsl(214, 70%, 76%);
+}
